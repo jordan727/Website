@@ -1,0 +1,58 @@
+/* html background */
+html {
+    background: url("img/sand-bg.jpg") no-repeat center fixed;
+}
+  
+/* body */
+body {
+
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+  
+  /* Navigation Bar */
+#navigation {
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+h4 {
+  margin: center;
+}
+
+/* Heading Centering */
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+
+  
