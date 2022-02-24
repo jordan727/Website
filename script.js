@@ -15,34 +15,48 @@ function grade() {
         document.getElementById("answerOne").innerHTML = "Correct"
         grade++
         document.getElementById("answerOne").style.color = "green"
-        document.getElementById("questionOne").style.border = "green"
+        document.getElementById("questionOne").style.color = "green"
     } else {
         document.getElementById("answerOne").innerHTML = "Incorrect"
+        document.getElementById("answerOne").style.color = "red"
+        document.getElementById("questionOne").style.color = "red"
     } 
 
     if (secondQuestion === "two" || secondQuestion === "2") {
         document.getElementById("answerTwo").innerHTML = "Correct"
         grade++
+        document.getElementById("answerTwo").style.color = "green"
+        document.getElementById("questionTwo").style.color = "green"
     } else {
         document.getElementById("answerTwo").innerHTML = "Incorrect"
+        document.getElementById("answerTwo").style.color = "red"
+        document.getElementById("questionTwo").style.color = "red"
     } 
 
     if (thirdQuestion === "three") {
         document.getElementById("answerThree").innerHTML = "Correct"
         grade++
+        document.getElementById("answerThree").style.color = "green"
+        document.getElementById("questionThree").style.color = "green"
     } else {
         document.getElementById("answerThree").innerHTML = "Incorrect"
+        document.getElementById("answerThree").style.color = "red"
+        document.getElementById("questionThree").style.color = "red"
     } 
     
     if (fourthQuestion === "four") {
         document.getElementById("answerFour").innerHTML = "Correct"
         grade++
+        document.getElementById("answerFour").style.color = "green"
+        document.getElementById("questionFour").style.color = "green"
     } else {
         document.getElementById("answerFour").innerHTML = "Incorrect"
+        document.getElementById("answerFour").style.color = "red"
+        document.getElementById("questionFour").style.color = "red"
     } 
    
     // Tell user grade + Response
-   alert("You got " + grade + "/4 " + "(" + grade/0.04 + "%)")
+    document.getElementById("finalGrade").innerHTML = "You got " + grade + "/4 " + "(" + grade/0.04 + "%) "
 
     if (grade === 4) {
         document.getElementById("response").innerHTML = "Amazing!"

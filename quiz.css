@@ -13,8 +13,8 @@ div {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* Navigation Bar */
+  
+  /* Navigation Bar */
 #navigation {
   font-weight: bold;
   text-align: center;
@@ -50,11 +50,7 @@ h4 {
 }
 
 /* Heading Centering */
-h1 {
-  text-align: center;
-}
-
-.infoTitles {
+.center {
   text-align: center;
 }
 
