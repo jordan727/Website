@@ -1,14 +1,17 @@
 /* html background */
 html {
-    background: url("img/sand-bg.jpg") no-repeat center fixed;
+  background: url("img/sand-bg.jpg") no-repeat center fixed;
+  font-family: 'Courier New', Courier, monospace;
 }
   
-/* body */
-body {
-
-  font-family: 'Courier New', Courier, monospace;
-  margin-left: 150px;
-  margin-right: 150px;
+/* Body */
+div {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 20px 100px;
+  width: 600px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
   
   /* Navigation Bar */
