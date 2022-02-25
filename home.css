@@ -3,7 +3,15 @@ html {
   background: url("img/sand-bg.jpg") no-repeat center fixed;
   font-family: 'Courier New', Courier, monospace;
 }
-   
+
+/* Body */
+div {
+  padding: 200px 100px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* body */
 body {
   text-align: center;
@@ -40,12 +48,6 @@ a:active {
 }
 
 h4 {
-  margin: center;
-}
-  
-/* Heading Spacing */
-h1 {
-  margin-top: 4cm;
-  margin-bottom: 10px;
   margin-left: auto;
+  margin-right: auto;
 }

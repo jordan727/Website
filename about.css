@@ -14,14 +14,6 @@ div {
   margin-right: auto;
 }
 
-/* Centering */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
-
 /* Navigation Bar */
 #navigation {
   font-weight: bold;
@@ -54,7 +46,8 @@ a:active {
 }
 
 h4 {
-  margin: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Heading Centering */
@@ -63,6 +56,15 @@ h1 {
 }
 
 .infoTitles {
+  text-align: center;
+}
+
+/* Centering */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   text-align: center;
 }
 
