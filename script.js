@@ -1,3 +1,5 @@
+// Test Grade
+
 // Event listener
 document.getElementById("answerSubmit").addEventListener("click", grade);
 
